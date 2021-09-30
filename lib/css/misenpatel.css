@@ -1,0 +1,333 @@
+/* CSS Document */
+
+body {
+font-family: 'Times New Roman';
+-moz-font-family: 'Times New Roman';
+-webkit-font-family: 'Times New Roman';
+-khtml-font-family: 'Times New Roman';
+-o-font-family: 'Times New Roman';
+font-weight: normal;
+
+scrollbar-face-color: #9b7256;
+scrollbar-shadow-color: #ffffff;
+scrollbar-highlight-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;  
+scrollbar-darkshadow-color: #ffffff;  
+scrollbar-track-color: #000000;
+scrollbar-arrow-color: #ffffff;
+
+margin: 0px;
+padding: 0px;
+}
+
+html {
+background: url("/lib/img/fond.jpg") no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+/*---------NeuroSoft Team -------------------------------------------------*/
+
+#NeuroSoft img {
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 80px;
+}
+
+/*---------Class -------------------------------------------------*/
+
+h1 {
+font-size: 34px;
+}
+
+/*---------Global -------------------------------------------------*/
+
+#Center {
+max-width: 960px;
+min-width: 960px;
+}
+
+/*--------- Header -------------------------------------------------*/
+
+header {
+background-color: #000000;
+width: 100%;
+min-height: 100px;
+position: fixed;
+z-index: 2;
+}
+
+/*---------Menu -------------------------------------------------*/
+
+nav {
+width: 100%;
+min-width: 960px;
+height: 50px;
+text-transform: uppercase;
+background-image: url("/lib/img/tronc.png");
+background-repeat: repeat-x;
+background-color: #000000;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+nav ul li {
+width: 140px;
+height: 38px;
+display: inline-block;
+margin: 7px 30px 0px 30px;
+padding: 12px 7px 10px 0px;
+background-image: url("/lib/img/li.png");
+background-repeat: no-repeat;
+}
+
+nav ul li:hover {
+color: #fff;
+}
+
+nav ul li.Up {
+color: #fff;
+}
+
+nav a {
+text-decoration: none;
+color: #333333;
+font-weight: bold;
+font-size: 14px;
+text-shadow: 2px 2px 5px rgba(38, 38, 38, 1);
+}
+
+/*---------Section -------------------------------------------------*/
+
+section {
+width: 960px;
+min-width: 960px;
+min-height: 650px;
+background-color: #000000;
+padding-top: 200px;
+}
+
+#Gauche {
+float: left;
+width: 440px;
+text-align: left;
+padding: 0px 0px 0px 10px;
+}
+
+#Droite {
+float: left;
+width: 480px; 
+}
+
+/*---------Article -------------------------------------------------*/
+
+article {
+margin-top: -5px;
+padding: 10px 10px 10px 10px;
+min-height: 200px;
+overflow: auto;
+color: #FFFFFF;
+}
+
+article img {
+max-width: 960px;
+}
+
+/*---------Bas page -------------------------------------------------*/
+/*---------FOOTER -------------------------------------------------*/       
+    
+footer {
+width: 960px;
+min-width: 960px;
+padding: 20px 0px 0px 0px;
+color: #FFFFFF;
+background-color: #000000;
+border-radius: 0px 0px 15px 15px;
+}
+
+#Cadre {
+display: inline-block;
+width: 250px;
+min-height: 80px;
+list-style-type: none;
+padding: 20px;
+text-align: left;
+font-size: 14px;
+color: #999999;
+}
+
+#Cadre img {
+margin-top: 0px;
+margin-left: 0px;
+max-width: 190px;
+max-height: 80px;
+padding-top: 0px;
+}
+
+#Cadre a {
+text-decoration: none;
+color: #999999; 
+font-size: 16px;    
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#Cadre a:hover {
+text-decoration: none;
+color: #9b7256; 
+font-size: 16px;
+}
+
+#Cadre li {
+margin-left: 10px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #666666;       
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;
+}
+
+#Cadre li:hover {
+margin-left: 10px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #9b7256;;
+}
+
+footer h2 { 
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+margin: 0px;
+padding-left: 20px;
+margin-left: 0px;
+border-bottom:1px dashed #9b7256;
+}
+
+/*----Tableau   ------------------------------------------------------*/
+
+.col_1 {
+display: inline-block;
+padding: 3px 0px;
+width: 120px;
+min-height: 1px;
+text-align: right;
+vertical-align: top;
+}
+
+table {
+width: 100%;
+}
+
+th {
+padding: 5px 5px 5px 5px;
+font-weight: bold;
+border-bottom: 1px solid black;
+}
+
+td {
+padding: 5px 5px 5px 5px;
+}
+
+/*---Formulaire-----------------------------------------------*/
+
+input {
+width: 200px;
+height: 20px;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-o-border-radius: 8px;
+border-top: 2px solid #222222;
+border-bottom: 2px solid #222222;
+border-left:none;
+border-right:none;
+text-align: left;
+padding: 5px;
+}
+
+textarea {
+border-radius: 8px 0px 0px 8px;
+-webkit-border-radius: 8px 0px 0px 8px;
+-moz-border-radius: 8px 0px 0px 8px;
+-khtml-border-radius: 8px 0px 0px 8px;
+-o-border-radius: 8px 0px 0px 8px;
+border-top: 2px solid #222222;
+border-bottom: 2px solid #222222;
+border-left:none;
+border-right:none;
+text-align: left;
+padding: 5px;
+}
+
+input[type="file"] {
+font-family: Times new roman;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+color: #9b7256;
+width: 300px;
+height: 25px;
+background-color: none;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-o-border-radius: 8px;
+border-top: 2px solid #222222;
+border-bottom: 2px solid #222222;
+}
+
+/*---Bouton-----------------------------------------------*/
+
+input[type="submit"] {
+font-family: Times new roman;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+width: 150px;
+height: 35px;
+color: #9b7256;
+background-color: #FFFFFF;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-o-border-radius: 8px;
+border-top: 2px solid #222222;
+border-bottom: 2px solid #222222;
+border-left:none;
+border-right:none;
+}
+
+/*---Visite Virtuelle-----------------------------------------------*/
+
+div#container { height: 350px; width: 100%; margin: 0 auto; }
+div#tourDIV {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+    z-index: 1;
+}
+div#panoDIV {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

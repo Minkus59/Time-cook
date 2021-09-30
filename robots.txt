@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://time-cook.fr/sitemap.xml
