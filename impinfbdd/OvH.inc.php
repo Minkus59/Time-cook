@@ -1,7 +1,7 @@
 <?php 
 $Ovh_serv_bDd = "mysql:host=timecookubbase.mysql.db;dbname=timecookubbase";
 $uTil_bDd_serv="timecookubbase";
-$mDp_bDd_serv="Guesam59";
+$mDp_bDd_serv="XXXXXX";
 $Home="http://www.time-cook.fr";
 $Serveur="postmaster@time-cook.fr";
 //$Destinataire="contact@neuro-soft.fr";
